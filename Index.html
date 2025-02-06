@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry Bacha ❤️</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6f2;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff4081;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #e6005c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sorry Bacha ❤️</h1>
+        <p>Meri pyari moti cutie ras malai, please naraz mat ho! Tum meri best friend ho, aur mujhe tumse bohot pyaar hai!</p>
+        <button onclick="showMessage()">Mujhe maaf kar do! Bss meko acha ni laga tha os time prr aab ni kr rha rude behave pakka ese tum gussa mat hoo🥺</button>
+        <p id="message" style="display: none; font-weight: bold; margin-top: 10px;"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerText = "Aishna, tum duniya ki sabse pyari best friend ho! ❤️";
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
